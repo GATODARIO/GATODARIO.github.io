@@ -1,0 +1,141 @@
+.boton {
+    background: #53e066;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.boton:hover {
+    background: #15b92b;
+    text-decoration: none;
+}
+
+body,
+html {
+    background-color: rgb(245, 248, 208);
+}
+
+header {
+    padding: 20px 30px;
+    max-width: 940px;
+    margin: auto;
+}
+
+nav {
+    display: inline-block;
+    float: right;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+}
+
+nav ul li a:hover {}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+#pageContent {
+    max-width: 1000px;
+    margin: auto;
+    border: none;
+}
+
+main {
+    float: left;
+    width: 60%;
+}
+
+aside {
+    float: right;
+    width: 30%;
+}
+
+article {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    height: 250px;
+}
+
+article h2 {
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+article p {}
+
+main section {}
+
+address {
+    padding: 10px 20px 30px 10px;
+}
+
+#logo {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 30px;
+    margin-right: 75px;
+    color: #FFF;
+}
+
+logo img {
+    width: 250px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+body>section {
+    max-width: 1000px;
+    height: 250px;
+    margin: auto;
+    padding: 30px 0px;
+    border-bottom: 1px solid #999;
+    color: #333;
+}
+
+.register input,
+.botones .register {
+    padding: 14px 50px;
+    border: none;
+    background: rgb(164, 96, 173);
+    color: white;
+    font-weight: 800;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background, color, 300ms;
+}
+
+.register input:hover,
+.botones .register:hover {
+    background: #af69f1;
+    color: black;
+}
+
+@media screen and (max-width: 1000px) {
+    body>section {
+        padding: 30px 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        float: none;
+        width: 100%;
+    }
+    aside {
+        float: none;
+        width: 100%;
+    }
+}
